@@ -2,15 +2,20 @@
 
 ## 1. Thông tin liên hệ
 Họ và tên: Lê Xuân Huy
+
 MSSV: 20120495
+
 Email: xuanhuy.tqn.005@gmail.com
+
 SĐT: 0348324331
 
 ## 2. Cách biên dịch chương trình
 2.1. Biên dịch tất cả file java
+
 	- Bật màn hình cmd ở bên trong thư mục Dictionary
 	- Gõ lệnh:    javac *.java
 2.2. Chạy file XML nếu chưa có data nền
+
 	- Buộc phải có hai thư mục bên trong Dictionary: "StorageEtoV" và "StorageVtoE"
 	- Ở màn hình cmd ở bên trong thư mục Dictionary:
 		+ Chạy lệnh: java ManagerStorage.ManagerEtoV, sau đó đợi chương trình render
@@ -18,12 +23,15 @@ SĐT: 0348324331
 	- Lúc này các bước setup đã hoàn tất
 	- Bạn cần có thư mục "StorageHistory" để lưu lịch sử tìm kiếm
 2.3. Chạy ứng dụng
+
 	- Sau khi hoàn thành các bước setup, chạy lệnh: java MyApp   để chạy ứng dụng
 
 ## 3. Link video demo
+
 https://youtu.be/5dFSyfkLyg8
 
 ## 4.* Giải thích file XML đã chỉnh sửa
+
 - Cả hai file đều đã được gỡ các dòng trống
 - Ở phần ý nghĩa: dòng đầu tiên @word và phát âm của word, tuy nhiên một số từ sẽ không được cung cấp
 Tương tự thì từ điển Việt Anh cũng không có phát âm cho tiếng việt.
